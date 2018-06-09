@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fonts/OpenSans-Regular-webfont.woff');
+    src: url('../fonts/OpenSans-Regular-webfont.woff') format('woff'),
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+    font-family: "open_sansregular";
+    letter-spacing: .3px;
+    background-color: #fff;
+    color: #333;
+}
+a {
+    color: #333;
+}
+a:active,
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: #999;
+    background: transparent;
+}
+.rootcontent {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
