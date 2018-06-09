@@ -8,8 +8,8 @@ Very simple webpage to demo the use of containers. Presentation given internally
 ```
 git clone https://github.com/pyratebeard/container-webhook-demo.git
 cd container-webhook-demo
-docker build -t webhookdemo:v1 .
-docker run -d -p 80:80 webhookdemo:v1
+docker build -t webhookdemo .
+docker run -d -p 80:80 webhookdemo
 ```
 Navigate to `localhost:80` in your browser.
 
